@@ -23,6 +23,7 @@ We need:
 - jobs.zip file
 - workspace.zip file
 - credential.xml file which contains both credential 
+  - About this file, we need to identify the credential that we need by going through the file and then copy it to existing credential.xml or combine them together and create a new one 
 
 Place in the same folder with the script and then we can execute the script
 
