@@ -7,10 +7,10 @@ Currently we have 2 instance of Jenkins
 
 # Requirement Components 
 In folder **/var/lib/jenkins**, there are some folders that we need to focus:
-- nodes: Contains the agent nodes configuration
-- plugins: Contains the plugins that are installed in Jenkins
-- jobs: Contains the jobs that are created in Jenkins
-- workspace: Contains the workspace of the jobs that are created in Jenkins
+- **nodes**: Contains the agent nodes configuration
+- **plugins**: Contains the plugins that are installed in Jenkins
+- **jobs**: Contains the jobs that are created in Jenkins
+- **workspace**: Contains the workspace of the jobs that are created in Jenkins
 
 Others stuff for now, it is not important, we can ignore them as in the remove instance, we also have that configuration 
 
@@ -26,12 +26,6 @@ We need:
 
 Place in the same folder with the script and then we can execute the script
 
-```
-``` 
-
-```
-``` migrate-jnekins-script.sh 
+``` ./migrate-jnekins-script.sh ``` 
 
  
-```
-```
